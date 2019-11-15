@@ -1,0 +1,24 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    background-color: red;
+    /*padding: 10px;
+    border: 3px solid black;
+    margin: 0 10px;
+    Margin edits top and bottom (0px) then left and right (10px)
+    margin: 0 1 2 3px;
+    Margin edits top (0px) then bottom (1px) then left (2px) then right (3px)*/
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
