@@ -1,0 +1,19 @@
+@import "./header";
+
+$colors: (
+    primary:#333
+
+);
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+body{
+    background-color: rgbacolor((primary), 0.4);
+}
+
+
+
+.header{
+
+}
